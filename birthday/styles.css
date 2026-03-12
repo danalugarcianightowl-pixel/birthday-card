@@ -1,0 +1,79 @@
+body{
+   text-align: center;
+   font-family: "Happy Monkey", system-ui;
+   color: white;
+   background: linear-gradient(to bottom, skyblue, lightpink);
+  
+}
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#photo{
+  width: 150px;
+  height: 150px;
+  border-radius:50%;
+  border: 5px solid palevioletred
+}
+h1,h3, h5 {
+     text-shadow: 0 0 1px rgb(21, 20, 20);
+}
+#age{
+  background-color: palevioletred;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#date{
+   background-color: palevioletred;
+   padding: 10px;
+   border-radius: 5px;
+   margin-top: 0;
+}
+/*************** Section 2: Responsive Design *****************/
+.cap1{
+font-family: inherit;
+ text-shadow: 0 0 1px rgb(21, 20, 20);
+ margin-bottom: 0;
+
+}
+
+.gift{
+  border : 5px solid whitesmoke;
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;  
+  background-image: url("images/gift-box.png");
+  background-size: cover;
+  margin:0 auto;
+}
+#gift-happy:hover {
+  background-image: url(images/huntrix.gif);
+}
+#gift-sad:hover {
+  background-image: url(images/zoey.gif);
+}
+#gift-surprise:hover {
+  background-image: url(images/wdi.gif);
+}
+#gift-group:hover {
+  background-image: url(images/rumi.gif);
+}
+#gift-gabbi{height: 200px;}
+#gift-gabbi:hover {
+  background-image: url(images/doggy.gif);
+  
+}
+#footer{
+
+  padding: 10px;
+  margin-top: 20px;
+  font-style: italic;
+  width: 400px;
+}
+a{
+  color:whitesmoke;
+
+}
